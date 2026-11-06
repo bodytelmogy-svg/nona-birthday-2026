@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Surprise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card" id="cardScreen">
+        <div class="heart" style="left: 15%; animation-delay: 0s;">♥</div>
+        <div class="heart" style="left: 35%; animation-delay: 1.5s;">♥</div>
+        <div class="heart" style="left: 70%; animation-delay: 0.8s;">♥</div>
+        <div class="heart" style="left: 85%; animation-delay: 2.2s;">♥</div>
+
+        <div class="title">عيد ملاد نور </div>
+        <div class="happy-birthday">Happy Birthday</div>
+        <div class="person-name">نونا</div>
+
+        <div id="bow"></div>
+        <div id="arc"></div>
+
+        <div class="cake-container">
+            <div id="cake"></div>
+        </div>
+
+        <button class="click-btn" id="clickBtn">ادغطي هنا ونتي سكته بقى و بلاش كلام كتير</button>
+
+        <div class="arrow-angle"><use></use></div>
+    </div>
+
+    <div class="envelope-container hidden" id="envelopeScreen">
+        
+        <div class="envelope" id="envelope">
+            <div class="envelope-flap"></div>
+            <div class="envelope-body">✉️</div>
+            <div class="envelope-text">افتحي و ادعيلي </div>
+        </div>
+
+        <div class="letter hidden" id="letter">
+            <h3>كل سنه ونتي طيبه يا نور و عقبال مليون و نص سنه كان ممكن اقلهالك عادي علي التلفون بس كل واحد بيقلها بي ترقتو </h3>
+            <p></p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
